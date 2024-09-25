@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+    position: static;
+}
+.logo{
+    color:black;
+    font-size: 35px;
+    line-height: 80px; 
+    padding: 0 100px;
+    font-weight: bold;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    right:800px;
+    bottom: 230px;
+   
+}
+nav ul li{
+    display: inline;
+    line-height: 80px;
+    margin: 0 5px;
+    max-width: 100%;
+}
+
+.s2{
+    
+    margin-left: 100px;
+   
+}
+.s3{
+    margin-left: 240px;
+
+}
+
+.s4{
+    margin-left: 350px;
+}
+.s5{
+    margin-left: 450px;
+}
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+#container{
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+}
+p{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 80px;
+    color: white;
+    text-align:justify;
+  
+}
+#buttons{
+    height: 120px;
+    width: 100%;
+    background-color: wheat;
+    /* display: block; */
+    /* position:fixed; */
+    margin-top: 200px;
+}
+.btn{  
+    border-radius: 40px;
+    border: 0;
+    font-size:medium;
+    font-weight: 400;
+    margin: 1rem 0;
+    margin-top: 25px;
+    padding: 1.5rem 3.5rem;
+    text-transform: uppercase;
+    max-width: 800px;
+    /* white-space:nowrap; */
+
+}
+.btn--primary{
+    background-color: rgb(3, 3, 66);
+    color: white;
+    margin-left: 250px;
+
+}
+.btn--primary:hover{
+    font-weight:700;
+}
+.btn--secondary{
+    background-color: rgb(189, 232, 247);
+    color: rgb(40, 135, 167);
+
+}
+.btn--secondary:hover{
+    font-weight:700;
+}
+.btn--tertiary{
+    background-color: rgb(221, 125, 233);
+    color: rgb(138, 23, 173);
+
+}
+.btn--tertiary:hover{
+    font-weight:700;
+}
+.btn--Fourth{
+    background-color: rgb(225, 129, 198);
+    color: rgb(212, 17, 111);
+
+}
+.btn--Fourth:hover{
+    font-weight:700;
+}
+.btn--Fifth{
+
+    background-color: rgb(149, 232, 183);
+    color: rgb(11, 151, 62);
+
+}
+.btn--Fifth:hover{
+    font-weight:700;
+}
+#latest{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(223, 243, 236);
+    position: relative;
+}
+.one{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(204, 234, 239);
+    position: relative;
+    display: flex;
+    left: 300px;
+    top: 50px;
+    
+}
+.two{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(61, 190, 212);
+    position: relative;
+    display: flex;
+    left: 900px;
+    bottom: 300px;
+    margin-top: 50px;
+}
+img{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+
+}
+a{
+    position: absolute;
+    /* display: block; */
+    text-align:justify;
+    margin-top: 220px;
+}
+.content{
+    display: none;
+}
+.white{
+    width: 100%;
+    height: 400px;
+}
+.black{
+    background-color: black;
+    height: 300px;
+    width: 1000px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    border-radius: 40px;
+}
+h3{
+    color: white;
+   position: relative;
+   top: 100px;
+   left: 50px;
+   font-weight: 900;
+   font-size: large
+
+}
+
+.px{
+        position: relative;
+        margin-left: 50px;
+        margin-top: 120px;
+        color: white;
+        text-align:justify;
+      
+    
+}
+footer{
+    width: 100% ;
+    position: absolute;
+    /* bottom: 0; */
+    color: white;
+    padding: 100px 0 30px ;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+.row{
+   width: 85%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: space-between; 
+}
+.col{
+     flex-basis: 25%;
+     padding: 10px;
+}
+.col h4{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    color: black;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    color: black;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+
+}
